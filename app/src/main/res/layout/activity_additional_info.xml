@@ -7,6 +7,21 @@
     tools:context=".activities.AdditionalInfoActivity"
     android:background="@color/black_shade_2">
 
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="176dp"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Comparte la aplicación"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.888" />
+
     <TextView
         android:id="@+id/textView10"
         android:layout_width="232dp"
@@ -27,20 +42,20 @@
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="339dp"
-        android:layout_height="42dp"
+        android:layout_width="277dp"
+        android:layout_height="43dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:text="Créditos a Nate Gentile, propietario del vídeo de introducción a las criptomonedas"
         android:textColor="@color/white"
-        android:textSize="16dp"
+        android:textSize="14dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.777" />
+        app:layout_constraintVertical_bias="0.661" />
 
     <TextView
         android:id="@+id/textView9"
@@ -62,19 +77,18 @@
 
     <Button
         android:id="@+id/buttonLink"
-        android:layout_width="262dp"
-        android:layout_height="52dp"
+        android:layout_width="151dp"
+        android:layout_height="42dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:text="Más vídeos de Nate Gentile"
+        android:text="Nate Gentile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.904" />
+        app:layout_constraintVertical_bias="0.74" />
 
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="119dp"
@@ -83,7 +97,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.545" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

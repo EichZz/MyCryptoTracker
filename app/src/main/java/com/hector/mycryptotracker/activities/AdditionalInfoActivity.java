@@ -17,6 +17,7 @@ import com.hector.mycryptotracker.R;
 public class AdditionalInfoActivity extends AppCompatActivity {
 
     Button buttonLink;
+    Button shareButton;
     String url = "https://www.youtube.com/channel/UC36xmz34q02JYaZYKrMwXng";
 
     @Override
@@ -33,6 +34,22 @@ public class AdditionalInfoActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        shareButton = findViewById(R.id.shareButton);
+        shareButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Intent.ACTION_SEND);
+                intent.putExtra(Intent.EXTRA_EMAIL, "");
+                intent.putExtra(Intent.EXTRA_SUBJECT, "Descarga MyCryptoTracker");
+                intent.putExtra(Intent.EXTRA_TEXT,"Descarga MyCrytoTracker ahora! Descarga la aplicación aquí: https://github.com/EichZz/MyCryptoTracker");
+                intent.setType("message/rfc822");
+                if(intent.resolveActivity(getPackageManager()) != null) {
+                    startActivity(intent);
+                }
+            }
+        });
+
     }
 
     @Override

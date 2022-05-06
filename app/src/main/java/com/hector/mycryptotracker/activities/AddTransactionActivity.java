@@ -137,7 +137,7 @@ public class AddTransactionActivity extends AppCompatActivity {
                     // Notification of creation
                     NotificationCompat.Builder notif = new NotificationCompat.Builder(AddTransactionActivity.this, String.valueOf(1));
                     notif.setContentText("Se ha añadido la " + transactionType + " de " + amount  + " en " + name +
-                            " a " + value + "€").setContentTitle("Transacción añadida")
+                            " a " + value + "$").setContentTitle("Transacción añadida")
                     .setSmallIcon(R.mipmap.ic_launcher_round);
 
                     NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
