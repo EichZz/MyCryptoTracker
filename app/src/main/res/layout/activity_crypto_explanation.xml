@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:http="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+        <VideoView
+            android:id="@+id/videoView_video"
+            android:layout_width="wrap_content"
+            android:layout_height="359dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="154dp"
+            android:layout_marginBottom="217dp" />
+
+</RelativeLayout>

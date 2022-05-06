@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/activity_list"
+        android:title="Lista de transacciones"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/activity_add_transaction"
+        android:title="Añadir nueva transacción"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/activity_crypto_values"
+        android:title="Valores Crypto"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/activity_crypto_explanation"
+        android:title="¿Qué son las criptomonedas?"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/activity_additional_info"
+        android:title="Información de la aplicación"
+        app:showAsAction="never"/>
+</menu>
